@@ -1,0 +1,7 @@
+*.o
+*.hi
+dist
+TAGS
+pdtournament
+.cabal-sandbox/
+cabal.sandbox.config
