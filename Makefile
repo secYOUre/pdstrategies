@@ -8,7 +8,7 @@ build: pdstrategies
 
 pdstrategies:
 	cabal sandbox init
-	cabal install pdtournament/pdtournament.cabal
+	cabal sandbox add-source pdtournament
 	cabal install --only-dependencies
 	cabal configure
 	cabal build
